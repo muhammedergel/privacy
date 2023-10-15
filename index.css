@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    color: rgb(63, 63, 63);
+}
+
+
+.header {
+    padding: 60px;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    background: #1abc9c;
+    color: red;
+    font-size: 24px;
+    background-image: url(images/kamera.webp);
+    background-size: cover;
+    
+    border: 8px solid red;
+}
+
+.text {
+    margin: 18px;
+}
+
+
+@media only screen and (min-width: 990px) {
+    .header, .text {
+        width: 50vw;
+        margin: 0 auto;
+    }
+}

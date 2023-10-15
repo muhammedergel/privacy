@@ -1,0 +1,38 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#navbar li {
+    float: left;
+}
+
+#navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#navbar li a:hover {
+    background-color: #111;
+}
+
+@media only screen and (max-width: 980px) {
+    #navbar {
+        height: 6vh;
+        align-items: center;
+    }
+
+    #navbar li a {
+        background-color: black;
+        border-radius: 12px;
+    }
+}
