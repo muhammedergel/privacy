@@ -16,11 +16,19 @@ h2 {
 
 img {
     width: 100%;
+}
+
+img {
     border: 6px solid red;
 }
 
 .mark-green {
     background-color: greenyellow;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
 }
 
 @media only screen and (min-width: 990px) {
